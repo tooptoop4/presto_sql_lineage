@@ -1,4 +1,4 @@
-from SparkSQL.SparkSQLVisitor import SparkSQLVisitor
+from SparkSQLVisitor import SparkSQLVisitor
 from graphviz import Digraph
 
 
