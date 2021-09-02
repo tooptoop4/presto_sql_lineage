@@ -6,10 +6,9 @@ from antlr4.error.ErrorListener import ErrorListener
 import re
 from typing import *
 
-import SparkSQL
-from SparkSQL.SparkSQLLexer import SparkSQLLexer
-from SparkSQL.SparkSQLParser import SparkSQLParser
-from SparkSQL.visitor import SparkSQLVisitor
+from SparkSQLLexer import SparkSQLLexer
+from SparkSQLParser import SparkSQLParser
+from visitor import SparkSQLVisitor
 
 STRICT_NONRESERVED = ["ANTI", "CROSS", "EXCEPT", "FULL", "INNER", "INTERSECT",
                       "JOIN", "LEFT", "NATURAL", "ON", "RIGHT", "SEMI", "SETMINUS", "UNION", "USING"]
